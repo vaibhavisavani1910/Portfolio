@@ -1,6 +1,6 @@
 {
   "name": "portfolio-react",
-  "homepage": "https://vaibhavisavani1910.github.io/Portfolio",
+  "homepage": "https://vaibhavisavani1910.github.io/Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,11 +10,12 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.1",
     "framer-motion": "^11.0.0",
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.3.1",
