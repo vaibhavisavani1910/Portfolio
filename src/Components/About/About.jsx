@@ -221,6 +221,20 @@ const About = () => {
           <h2 className="section-title">
           Professional <span className="title-accent">Experience</span>
           </h2>
+
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <span className="timeline-year">Oct 2025 – Current</span>
+                <h5>Software Engineer</h5>
+                <div className="timeline-company">Centrl AI</div>
+                <p>
+                  Designed and implemented RESTful Java APIs integrated with MySQL and MongoDB, leveraging Spring
+Security for authentication and authorization. Resolved 12+ production defects, including performance bottlenecks, by applying multi-threading, SQL query
+optimization, and backend code improvements to enhance system stability and reliability.
+                </p>
+              </div>
+            </div>
           
           <div className="timeline">
             <div className="timeline-item">
@@ -253,19 +267,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="timeline-item">
-              <div className="timeline-dot"></div>
-              <div className="timeline-content">
-                <span className="timeline-year">Aug 2022 – Dec 2022</span>
-                <h5>Software Engineer</h5>
-                <div className="timeline-company">Celonis</div>
-                <p>
-                  Designed and deployed an NLP-powered email intent classification pipeline, reducing manual 
-                  triage workload by 93%. Developed AngularJS front-end components and REST APIs for an 
-                  order-to-cash analytics product used by enterprise clients worldwide.
-                </p>
-              </div>
-            </div>
+          
 
             <div className="timeline-item">
               <div className="timeline-dot"></div>
